@@ -1,0 +1,21 @@
+    var filme = "The Lord of the rings";
+    var letra = "o";
+    
+    
+    function vezesLetraAparece(frase, letra) {
+    
+    var resultado = [];
+
+    for (var letraIndex = 0; letraIndex < filme.length; letraIndex++){
+
+    if (filme[letraIndex] == letra) {
+  
+     resultado.push (filme[letraIndex])
+    }
+}
+
+console.log(resultado.length)
+
+    return resultado.length 
+}
+vezesLetraAparece(filme,letra)
